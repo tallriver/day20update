@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rbac.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Rbac.WebApi.Controllers.MenuController.GetMenuAll">
+            <summary>
+            获取菜单信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.MenuController.GetList">
+            <summary>
+            获取菜单下拉框数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.MenuController.AddMenu(Rbac.Entity.Menu)">
+            <summary>
+            添加菜单信息
+            </summary>
+            <param name="menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.MenuController.DelMenu(System.Int32)">
+            <summary>
+            删除菜单信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.MenuController.GetMenuById(System.Int32)">
+            <summary>
+            查询是否存在子节点
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.MenuController.UpdMenu(Rbac.Entity.Menu)">
+            <summary>
+            修改菜单
+            </summary>
+            <param name="menu"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.MenuController.GetMenuShow">
+            <summary>
+            菜单显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.MenuController.SaveMenuRole(Rbac.Application.MenuRoleDto)">
+            <summary>
+            添加菜单角色中间表信息
+            </summary>
+            <param name="menuRole"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.RoleController.GetRoleMenuDto(System.Int32)">
+            <summary>
+            获取角色菜单表信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.RoleController.DelMenuRole(System.Int32)">
+            <summary>
+            角色菜单表添加前的删除功能
+            </summary>
+            <param name="roleid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.UserController.AddUserInfo(Rbac.Application.UserDto)">
+            <summary>
+            添加用户信息
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.UserController.Login(Rbac.Application.LoginDto)">
+            <summary>
+            登录
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rbac.WebApi.Controllers.UserController.UserPage(System.Int32,System.Int32)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="pageindex"></param>
+            <param name="pagesize"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
